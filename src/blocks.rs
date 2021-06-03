@@ -1,4 +1,4 @@
-pub Block {
+pub struct Block {
     pub index: u32,
     pub timestamp: u64,
     pub prev_block_hash: BlockHash,
@@ -16,4 +16,10 @@ impl Block {
             payload,
         }
     }
+}
+
+struct BlockHash;
+
+impl BlockHash {
+
 }
