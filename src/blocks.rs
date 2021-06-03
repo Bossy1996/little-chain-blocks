@@ -10,11 +10,11 @@ pub struct Block {
     pub payload: String,
 }
 
-/* impl Debug for Block {
+impl Debug for Block {
     fn fmt(&self, f: &mut Formatter) -> fmt::Result {
-        write!(f, "Block");
+        write!(f, "Block")
     }
-} */
+}
 
 impl Block {
     pub fn new(index: u32, timestamp: u64, prev_block_hash: BlockHash, nonce: u64,payload: String) -> Self {
