@@ -1,3 +1,5 @@
+use little-chain-blocks::Block;
+
 fn main() {
-    println!("Hello, world!");
+    let block = Block
 }
